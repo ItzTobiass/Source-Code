@@ -1,0 +1,47 @@
+# GuardianAC Configuration File
+
+# General Settings
+plugin:
+  enabled: true  # Turn on or Turn off the plugin
+  log_alerts: true  # Log alerts to console
+
+# Alerts Settings
+alerts:
+  op_only: true  # Showing alerts only with OP
+  format: "&bGuardianAC&f - {player} suspected of: {reason}"
+
+# Cheat Detection Toggles
+detections:
+  fly: true
+  speed: true
+  long_jump: true
+  no_fall: true
+  killaura: true
+  rapid_attack: true
+  step: true
+  xray: true
+  auto_armor: true
+  no_slow: true
+  air_jump: true
+  elytra_fly: true
+  disabler: true
+  no_hunger: true
+  scaffold: true
+  reach: true
+
+# Cheat Detection Thresholds
+thresholds:
+  speed:
+    sprint: 0.9
+    walk: 0.7
+  reach: 3.0  # Maximum allowable reach in blocks
+  rapid_attack_time: 100  # Time between attacks in milliseconds
+  xray:
+    ores_per_5_minutes: 64
+  killaura_angle: 120  # Maximum allowable angle in degrees
+
+# Kick Settings
+kick:
+  enabled: true  # Automatically kick the player after X alerts
+  alert_limit: 10
+  message: "&c[Guardian] Unfair Advantage"

@@ -1,0 +1,13 @@
+name: GuardianAC
+version: '${project.version}'
+main: org.guardiananticheat.guardianac.GuardianAC
+api-version: '1.18'
+authors: [ItzTobiass]
+description: A Minecraft Pro AntiCheat
+
+commands:
+  afk:
+    description: Toggle Alerts.
+    usage: /alerts
+    permission: guardianac.alerts
+    permission-message: "You don't have permission to use this command."
