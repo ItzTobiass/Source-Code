@@ -1,5 +1,4 @@
-# GuardianAC Configuration File
-
+# Guardian Anti-Cheat Configuration                 By ItzTobiass
 # General Settings
 plugin:
   enabled: true  # Turn on or Turn off the plugin
@@ -12,6 +11,8 @@ alerts:
 
 # Cheat Detection Toggles
 detections:
+  hitbox: true
+  timer: true
   fly: true
   speed: true
   long_jump: true
@@ -24,8 +25,6 @@ detections:
   no_slow: true
   air_jump: true
   elytra_fly: true
-  disabler: true
-  no_hunger: true
   scaffold: true
   reach: true
 
@@ -36,8 +35,10 @@ thresholds:
     walk: 0.7
   reach: 3.0  # Maximum allowable reach in blocks
   rapid_attack_time: 100  # Time between attacks in milliseconds
-  xray:
-    ores_per_5_minutes: 64
+  timer_deviation: 1.5
+  timer_violations: 5
+  hitbox_reach: 4.0
+  hitbox_angle: 60.0
   killaura_angle: 120  # Maximum allowable angle in degrees
 
 # Kick Settings

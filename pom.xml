@@ -6,12 +6,12 @@
 
   <groupId>org.guardiananticheat</groupId>
   <artifactId>GuardianAC</artifactId>
-  <version>1.0</version>
+  <version>1.5</version>
   <packaging>jar</packaging>
 
   <name>GuardianAC</name>
 
-    <description>A Minecraft Pro AntiCheat</description>
+    <description>An advanced anti-cheat plugin to keep your server safe.</description>
     <properties>
     <java.version>1.8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
