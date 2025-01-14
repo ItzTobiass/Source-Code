@@ -6,7 +6,7 @@
 
   <groupId>org.guardiananticheat</groupId>
   <artifactId>GuardianAC</artifactId>
-  <version>1.5</version>
+  <version>1.5.2</version>
   <packaging>jar</packaging>
 
   <name>GuardianAC</name>
