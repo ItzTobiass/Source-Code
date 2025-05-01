@@ -9,10 +9,8 @@ import org.guardiananticheat.guardianac.utils.AlertsUtil;
 import org.guardiananticheat.guardianac.GuardianAC;
 
 public class SpeedCheck implements Listener {
-    private final GuardianAC plugin;
 
     public SpeedCheck(GuardianAC plugin) {
-        this.plugin = plugin;
     }
 
     @EventHandler
@@ -41,9 +39,9 @@ public class SpeedCheck implements Listener {
         }
 
         if (isOnGround && distance > threshold) {
-            AlertsUtil.alert(player, "Speed Hack Detected");
+            AlertsUtil.alert(player, "Speed Hack Detected - Can be false");
         } else if (!isOnGround && distance > threshold * 1.5) {
-            AlertsUtil.alert(player, "Speed Hack Detected (Jumping)");
+            AlertsUtil.alert(player, "Speed Hack Detected (Jumping) - Can be false");
         }
     }
 }

@@ -5,13 +5,11 @@ import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.guardiananticheat.guardianac.checks.combat.*;
 import org.guardiananticheat.guardianac.checks.movement.*;
-import org.guardiananticheat.guardianac.checks.packets.*;
 import org.guardiananticheat.guardianac.checks.movement.NoFallCheck;
 import org.guardiananticheat.guardianac.checks.movement.FlyCheck;
 import org.guardiananticheat.guardianac.checks.movement.NoSlowCheck;
 import org.guardiananticheat.guardianac.checks.movement.SpeedCheck;
 import org.guardiananticheat.guardianac.checks.movement.TimerCheck;
-import org.guardiananticheat.guardianac.checks.packets.crashpackets;
 import org.guardiananticheat.guardianac.commands.AlertsCommand;
 import org.guardiananticheat.guardianac.commands.HelpCommand;
 import org.guardiananticheat.guardianac.commands.InfoCommand;
@@ -35,8 +33,11 @@ public class GuardianAC extends JavaPlugin {
         Bukkit.getPluginManager().registerEvents(new TimerCheck(this), this);
         Bukkit.getPluginManager().registerEvents(new criticals(), this);
         Bukkit.getPluginManager().registerEvents(new NoSwing(), this);
-        Bukkit.getPluginManager().registerEvents(new crashpackets(), this);
         Bukkit.getPluginManager().registerEvents(new nohitdelay(), this);
+        Bukkit.getPluginManager().registerEvents(new NoSwing(), this);
+        Bukkit.getPluginManager().registerEvents(new FastPlaceCheck(), this);
+
+
 
 
 

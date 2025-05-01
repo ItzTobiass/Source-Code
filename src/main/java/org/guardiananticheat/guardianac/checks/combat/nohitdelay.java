@@ -11,7 +11,7 @@ import org.guardiananticheat.guardianac.utils.AlertsUtil;
 import java.util.HashMap;
 import java.util.UUID;
 
-public class nohitdelay extends JavaPlugin implements Listener {
+public class nohitdelay implements Listener {
 
     private final HashMap<UUID, Long> lastHitTime = new HashMap<>();
 
