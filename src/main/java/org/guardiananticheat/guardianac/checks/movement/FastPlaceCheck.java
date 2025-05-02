@@ -4,6 +4,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.BlockPlaceEvent;
 import org.bukkit.entity.Player;
+import org.guardiananticheat.guardianac.GuardianAC;
 import org.guardiananticheat.guardianac.utils.AlertsUtil;
 
 import java.util.HashMap;
@@ -13,6 +14,9 @@ public class FastPlaceCheck implements Listener {
 
     private final HashMap<UUID, Long> lastPlaceTime = new HashMap<>();
     private final long minPlaceDelay = 100;
+
+    public FastPlaceCheck(GuardianAC guardianAC) {
+    }
 
     @EventHandler
     public void onBlockPlace(BlockPlaceEvent event) {

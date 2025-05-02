@@ -6,9 +6,13 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.potion.PotionEffectType;
+import org.guardiananticheat.guardianac.GuardianAC;
 import org.guardiananticheat.guardianac.utils.AlertsUtil;
 
 public class criticals implements Listener {
+
+    public criticals(GuardianAC guardianAC) {
+    }
 
     @EventHandler
     public void onEntityDamageByEntity(EntityDamageByEntityEvent event) {

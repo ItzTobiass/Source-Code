@@ -6,6 +6,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.guardiananticheat.guardianac.GuardianAC;
 import org.guardiananticheat.guardianac.utils.AlertsUtil;
 
 import java.util.HashMap;
@@ -14,6 +15,9 @@ import java.util.UUID;
 public class nohitdelay implements Listener {
 
     private final HashMap<UUID, Long> lastHitTime = new HashMap<>();
+
+    public nohitdelay(GuardianAC guardianAC) {
+    }
 
     @EventHandler
     public void onEntityDamageByEntity(EntityDamageByEntityEvent event) {

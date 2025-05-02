@@ -6,6 +6,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.event.player.PlayerAnimationEvent;
 import org.bukkit.event.player.PlayerAnimationType;
+import org.guardiananticheat.guardianac.GuardianAC;
 import org.guardiananticheat.guardianac.utils.AlertsUtil;
 
 import java.util.HashSet;
@@ -14,6 +15,9 @@ import java.util.UUID;
 public class NoSwing implements Listener {
 
     private final HashSet<UUID> recentlySwung = new HashSet<>();
+
+    public NoSwing(GuardianAC guardianAC) {
+    }
 
     @EventHandler
     public void onPlayerSwing(PlayerAnimationEvent event) {

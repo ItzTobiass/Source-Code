@@ -4,9 +4,13 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageEvent;
+import org.guardiananticheat.guardianac.GuardianAC;
 import org.guardiananticheat.guardianac.utils.AlertsUtil;
 
 public class NoFallCheck implements Listener {
+
+    public NoFallCheck(GuardianAC guardianAC) {
+    }
 
     @EventHandler
     public void onFallDamage(EntityDamageEvent event) {
