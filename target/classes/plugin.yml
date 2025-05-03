@@ -1,5 +1,5 @@
 name: GuardianAC
-version: '1.5.8'
+version: '1.5.9'
 main: org.guardiananticheat.guardianac.GuardianAC
 api-version: '1.18'
 authors: [ItzTobiass]

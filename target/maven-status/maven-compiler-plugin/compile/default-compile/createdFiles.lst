@@ -3,6 +3,7 @@ org\guardiananticheat\guardianac\checks\combat\KillAuraCheck$PlayerData.class
 org\guardiananticheat\guardianac\checks\movement\SpeedCheck.class
 org\guardiananticheat\guardianac\checks\movement\FastPlaceCheck.class
 org\guardiananticheat\guardianac\checks\combat\nohitdelay.class
+org\guardiananticheat\guardianac\checks\movement\ScaffoldCheck$ScaffoldData.class
 org\guardiananticheat\guardianac\checks\movement\JesusCheck.class
 org\guardiananticheat\guardianac\commands\AlertsCommand.class
 org\guardiananticheat\guardianac\utils\MovementUtils.class
@@ -11,15 +12,19 @@ org\guardiananticheat\guardianac\checks\movement\TimerCheck.class
 org\guardiananticheat\guardianac\commands\InfoCommand.class
 org\guardiananticheat\guardianac\utils\AlertsUtil.class
 org\guardiananticheat\guardianac\checks\movement\SpeedCheck$PlayerData.class
+org\guardiananticheat\guardianac\checks\movement\NoFallCheck$NoFallData.class
 org\guardiananticheat\guardianac\checks\movement\ScaffoldCheck.class
 org\guardiananticheat\guardianac\checks\combat\NoSwing.class
 org\guardiananticheat\guardianac\checks\movement\FlyCheck.class
 org\guardiananticheat\guardianac\checks\movement\NoSlowCheck.class
 org\guardiananticheat\guardianac\checks\combat\KillAuraCheck.class
+org\guardiananticheat\guardianac\checks\combat\criticals$CriticalsData.class
 org\guardiananticheat\guardianac\GuardianAC.class
+org\guardiananticheat\guardianac\checks\movement\TimerCheck$TimerData.class
 org\guardiananticheat\guardianac\commands\HelpCommand.class
 org\guardiananticheat\guardianac\checks\combat\HitBoxCheck.class
 org\guardiananticheat\guardianac\utils\PlayerData.class
 org\guardiananticheat\guardianac\checks\combat\criticals.class
 org\guardiananticheat\guardianac\checks\combat\HitBoxCheck$PlayerData.class
+org\guardiananticheat\guardianac\checks\movement\NoSlowCheck$NoSlowData.class
 org\guardiananticheat\guardianac\checks\movement\FlyCheck$PlayerData.class
